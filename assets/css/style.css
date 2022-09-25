@@ -425,7 +425,6 @@ input[type="checkbox"]:checked:after{
     gap: 10px;
     width: 34px;
     height: 48px;
-    border-left: 3px solid #1ED292;
     background: #FCFCFC;
     /* Inside auto layout */
     flex: none;
@@ -580,6 +579,46 @@ input[type="checkbox"]:checked:after{
     background: #FFFFFF;
 }
 
+select{
+    width: 170px;
+    height: 48px;
+    left: 210px;
+    background: #FFFFFF;
+    color: #757575;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    border: none;
+    outline: none;
+    margin-top: -3px;
+}
+
+select > option{
+
+}
+
+.div{
+    padding: 30px;
+}
+
+.hello{
+    padding: 30px;
+}
+
+select{
+    -webkit-appearance: none;
+}
+
+select option{
+    padding: 10px 0px 10px 20px;
+}
+
+select:hover{
+    border: none;
+}
+
 .employee_data_body p{
     font-family: 'Lato';
     font-style: normal;
@@ -702,6 +741,15 @@ input[type="checkbox"]:checked:after{
     top: 0px;
 }
 
+.employee_icon_3_container{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 310px;
+    top: 0px;
+    display: none;
+}
+
 .employee_icon_1{
     position: relative;
     width: 24px;
@@ -712,6 +760,13 @@ input[type="checkbox"]:checked:after{
     position: relative;
     width: 24px;
     height: 24px;
+}
+
+.employee_icon_3{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-top: -2px;
 }
 
 .emp_logo{
