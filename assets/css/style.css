@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -281,7 +282,7 @@
 
 .right_section{
     position: absolute;
-    width: 1200px;
+    width: 1278px;
     height: 847px;
     left: 240px;
     top: 0px;   
@@ -293,7 +294,7 @@
 /* Employee Section */
 .employee_section{
     position: absolute;
-    width: 1150px;
+    width: 1200px;
     height: 740px;
     left: 270px;
     top: 87px;
@@ -424,6 +425,7 @@ input[type="checkbox"]:checked:after{
     gap: 10px;
     width: 34px;
     height: 48px;
+    border-left: 3px solid #1ED292;
     background: #FCFCFC;
     /* Inside auto layout */
     flex: none;
@@ -502,7 +504,7 @@ input[type="checkbox"]:checked:after{
     align-items: flex-start;
     padding: 0px;
     position: absolute;
-    width: 954px;
+    width: 1030px;
     left: 212px;
     top: 0px;
     overflow-x: scroll;
@@ -555,7 +557,7 @@ input[type="checkbox"]:checked:after{
     display: flex;
     align-items: flex-start;
     padding: 0px;
-    gap: 1px;
+    gap: 0px;
     margin-top: 0.15px;
     height: 51.5px;
     filter: drop-shadow(2px 0px 4px rgba(0, 0, 0, 0.05));
@@ -590,4 +592,352 @@ input[type="checkbox"]:checked:after{
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+/*========================================= Employee Directory ============================= */
+
+.employee_directory_container{
+    position: absolute;
+    display: flex;
+    width: 1278px;
+    height: 80px;
+    left: 240px;
+    top: 0px;
+}
+
+.employee_directory_left_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
+    width: 282px;
+    left: 30px;
+    height: 24px;
+    top: 28px;
+}
+
+.employee_directory_right_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    right: 20px;
+    top: 21px;
+}
+
+.employee_dir_general_icon{
+    width: 24px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.employee_dir_title_container{
+    width: 248px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.emp_icon_container{
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.emp_icon_vector1{
+    position: absolute;
+    width: 7px;
+    height: 14px;
+    top: 5px;
+    left: 2px;
+}
+
+.emp_icon_vector2{
+    position: absolute;
+    width: 14px;
+    top: 10.5px;
+    left: 2px;
+}
+
+.employee_title_text{
+    position: absolute;
+    width: 140px;
+    height: 19px;
+    left: 34px;
+    top: 2.5px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #4A4A4A;
+}
+
+.employee_icon_1_container{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 204px;
+    top: 0px;
+}
+
+.employee_icon_2_container{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 258px;
+    top: 0px;
+}
+
+.employee_icon_1{
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.employee_icon_2{
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.emp_logo{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top:2px;
+    left:2px;
+}
+
+/* ==================== Create Emp Button ========================== */
+.create_emp_section_container{
+    width: 146px;
+    height: 40px;
+    background-color: #1ED292;
+    cursor: pointer;
+    border-radius: 3px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.create_emp_right_icon{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.creat_emp_text{
+    position: absolute;
+    width: 106px;
+    height: 17px;
+    left: 20px;
+    top: 12px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.dot_more:first-child{
+    position: absolute;
+    width: 4.3px;
+    height: 4.3px;
+    top: 4px;
+    left:11px;
+}
+
+.dot_more:nth-child(2){
+    position: absolute;
+    width: 4.3px;
+    height: 4.3px;
+    top: 11px;
+    left:11px;
+}
+
+.dot_more:last-child{
+    position: absolute;
+    width: 4.3px;
+    height: 4.3px;
+    top: 18px;
+    left:11px;
+}
+
+/* ==================== Pagination Section ============================= */
+.pagination_main_container{
+    position: absolute;
+    width: 1278px;
+    height: 70px;
+    left: 240px;
+    top: 777px;
+}
+
+.pagination_main_frame{
+    position: relative;
+    width: 1278px;
+    height: 70px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 0px 12px;
+}
+
+.pagination_container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    gap: 38px;
+    width: 489.41px;
+    top: 15px;
+    right: 24.02px;
+    height: 40px;
+}
+
+.pagination_total_pages{
+    width: 119px;
+    height: 40px;
+    border: 1px solid #E4E7ED;
+    border-radius: 2px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pagination_links{
+    width: 200px;
+    height: 40px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.pag_tp_container{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85px;
+    height: 24px;
+    left: 17px;
+    top: 9px;
+}
+
+.pag_tp_container p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #4A4A4A;
+}
+
+.pag_tp_container_icon{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pag_link_container{
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 157px;
+    top: 0px;
+    background: #FFFFFF;
+    display: flex;
+    /* Border base */
+    border: 1px solid #E4E7ED;
+    border-radius: 4px;
+}
+
+.pag_small_container{
+    width: 40px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #E4e7ED;
+}
+
+.pag_small_container span{
+    position: absolute;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #AAAAAA;
+    /* identical to box height */
+}
+
+.pag_small_container:nth-child(2){
+    background-color: #1ED292;
+}
+
+.pag_link_img_ctr{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pagination_current{
+    width: 100px;
+    height: 40px;
+    /* Inside auto layout */
+    flex: none;
+    gap: 10px;
+    order: 2;
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pag_current_text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* identical to box height */
+    color: #757575;
+}
+
+.pag_current_link{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E4e7ED;
 }
